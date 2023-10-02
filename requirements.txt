@@ -2,3 +2,4 @@ altair
 requests
 streamlit
 streamlit_lottie
+PIL

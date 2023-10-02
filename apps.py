@@ -1,8 +1,8 @@
 import requests
 import streamlit as st
 # from streamlit_lottie import st_lottie
-from PIL import Image
-import io
+# from PIL import Image
+# import io
 
 # def load_lottieurl(png):
 #     r = requests.get(url)
@@ -16,8 +16,6 @@ def local_css(file_name):
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 local_css("style.css")
-
-# local_css("D:\Subhashini\Datascience\erase\style.css")
 
 st.subheader("Hi, I am Khaja Mohideen:wave:")
 st.title("A PEST CONTROL SERVICE PROVIDER")

@@ -29,7 +29,7 @@ ERASE Pest Control Services for your pest control needs.
 st.write("[Learn More >](https://instagram.com/erase_pest_no1?igshid=MmU2YjMzNjRlOQ==)")
 
 #loading assets
-lottie_coding =load_lottieurl("https://lottie.host/f3188099-228a-4cfe-bfbd-e3f5b88ed680/BpFet5AtOZ.json")
+# lottie_coding =load_lottieurl("https://lottie.host/f3188099-228a-4cfe-bfbd-e3f5b88ed680/BpFet5AtOZ.json")
 
 # ---- WHAT I DO ----
 with st.container():

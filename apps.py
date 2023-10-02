@@ -9,7 +9,7 @@ def load_lottieurl(url):
         return None
     return r.json()
 lottie_coding = load_lottieurl("https://lottie.host/f3188099-228a-4cfe-bfbd-e3f5b88ed680/BpFet5AtOZ.json")
-img_lottie_animation = Image.open("D:\Subhashini\Datascience\erase\lottie_animation.png")
+img_lottie_animation = Image.open("lottie_animation.png")
 
 
 # Use local CSS

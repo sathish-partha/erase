@@ -7,8 +7,8 @@ def load_lottieurl(url):
     if r.status_code != 200:
         return None
     return r.json()
-#loading assets
-lottie_coding =load_lottieurl("https://lottie.host/f3188099-228a-4cfe-bfbd-e3f5b88ed680/BpFet5AtOZ.json")
+
+lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 
 
 # Use local CSS

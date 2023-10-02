@@ -1,6 +1,14 @@
 import requests
 import streamlit as st
+from streamlit_lottie import st_lottie
 
+def load_lottieurl(url):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+#loading assets
+lottie_coding =load_lottieurl("https://lottie.host/f3188099-228a-4cfe-bfbd-e3f5b88ed680/BpFet5AtOZ.json")
 
 
 # Use local CSS
@@ -86,8 +94,8 @@ with st.container():
             """
         )
         st.write("[Instagram Profile >](https://instagram.com/erase_pest_no1?igshid=MmU2YjMzNjRlOQ==)")
-    # with right_column:
-    #     st_lottie(lottie_coding, height=300, key="coding")
+    with right_column:
+        st_lottie(lottie_coding, height=300, key="coding")
 
 # ---- CONTACT ----
 with st.container():

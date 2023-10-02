@@ -1,5 +1,6 @@
 import requests
 import streamlit as st
+from streamlit_lottie import st_lottie
 from PIL import Image
 
 def load_lottieurl(url):
@@ -94,8 +95,8 @@ with st.container():
             """
         )
         st.write("[Instagram Profile >](https://instagram.com/erase_pest_no1?igshid=MmU2YjMzNjRlOQ==)")
-    # with right_column:
-    #     st_lottie(lottie_coding, height=300, key="coding")
+    with right_column:
+        st_lottie(lottie_coding, height=300, key="coding")
 
 # ---- CONTACT ----
 with st.container():

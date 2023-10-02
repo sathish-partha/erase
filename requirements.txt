@@ -1,5 +1,5 @@
 altair
 requests
 streamlit
-streamlit-lottie
+lottie
 Pillow

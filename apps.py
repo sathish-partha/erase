@@ -2,16 +2,14 @@ import requests
 import streamlit as st
 # from streamlit_lottie import st_lottie
 from PIL import Image
+import io
 
-# def load_lottieurl(url):
+# def load_lottieurl(png):
 #     r = requests.get(url)
 #     if r.status_code != 200:
 #         return None
 #     return r.json()
 # lottie_coding = load_lottieurl("https://lottie.host/f3188099-228a-4cfe-bfbd-e3f5b88ed680/BpFet5AtOZ.json")
-img_lottie_animation = Image.open("lottie_animation.png")
-
-
 # Use local CSS
 def local_css(file_name):
     with open(file_name) as f:
@@ -36,6 +34,8 @@ ERASE Pest Control Services for your pest control needs.
 
 #st.write("I'm Khaja Mohideen, the founder and owner of ERASE Pest Control Services. With a passion for pest management and a dedication to providing effective solutions, I've built a trusted name in the industry. With years of experience and a commitment to customer satisfaction, I lead a team of professionals who excel in tackling all your pest-related concerns. Our mission is to deliver top-notch pest control services with a focus on quality, safety, and eco-friendliness. We're here to help you enjoy a pest-free environment, whether it's in your home or business. Thank you for considering ERASE Pest Control Services for your pest control needs.")
 st.write("[Learn More >](https://instagram.com/erase_pest_no1?igshid=MmU2YjMzNjRlOQ==)")
+img_lottie_animation = Image.open("lottie_animation.png")
+img_lottie_animation
 
 #loading assets
 # lottie_coding =load_lottieurl("https://lottie.host/f3188099-228a-4cfe-bfbd-e3f5b88ed680/BpFet5AtOZ.json")

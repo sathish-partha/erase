@@ -32,8 +32,6 @@ ERASE Pest Control Services for your pest control needs.
 
 #st.write("I'm Khaja Mohideen, the founder and owner of ERASE Pest Control Services. With a passion for pest management and a dedication to providing effective solutions, I've built a trusted name in the industry. With years of experience and a commitment to customer satisfaction, I lead a team of professionals who excel in tackling all your pest-related concerns. Our mission is to deliver top-notch pest control services with a focus on quality, safety, and eco-friendliness. We're here to help you enjoy a pest-free environment, whether it's in your home or business. Thank you for considering ERASE Pest Control Services for your pest control needs.")
 st.write("[Learn More >](https://instagram.com/erase_pest_no1?igshid=MmU2YjMzNjRlOQ==)")
-img_lottie_animation = Image.open("lottie_animation.png")
-img_lottie_animation
 
 #loading assets
 # lottie_coding =load_lottieurl("https://lottie.host/f3188099-228a-4cfe-bfbd-e3f5b88ed680/BpFet5AtOZ.json")

@@ -2,3 +2,4 @@ altair
 requests
 streamlit
 Pillow
+streamlit_lottie==0.0.5
